@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
+import { useMediaQuery } from "react-responsive";
+import { Slide as Menu } from "react-burger-menu";
 
 const ListContainer = styled.div`
     ${tw`
@@ -26,6 +28,8 @@ const ListContainer = styled.div`
 `;
 
 export function NavItems() {
+
+    
     return (
         <ListContainer>
             <NavItem>
