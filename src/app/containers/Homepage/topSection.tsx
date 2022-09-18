@@ -59,7 +59,7 @@ const Description = styled.p`
         xl:text-lg
         sm:max-h-full
         overflow:hidden
-        max-h-12
+        max-h-12 
         text-gray-800
     `}; 
 `;
